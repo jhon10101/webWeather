@@ -14,7 +14,7 @@
                         'appid' => '61e751a94bf437c734d2dca1de588b99',
                     ]);
                     
-                    $ch = curl_init(sprintf('%s?%s', 'http://api.openweathermap.org/data/2.5/weather', $queryString));
+                    $ch = curl_init(sprintf('%s?%s', 'https://api.openweathermap.org/data/2.5/weather', $queryString));
                     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
                     
                     $json = curl_exec($ch);
