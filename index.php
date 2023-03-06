@@ -15,7 +15,7 @@
 <body style=" background-image: url('https://images3.alphacoders.com/810/81075.jpg');">
 <nav class="navbar navbar-expand-lg navbar-dark bg-info p-4">
     <div class="container-fluid">
-        <h3 class="text-center text-warning">* WEATHER TIME *</h3>
+        <h3 class="text-center text-warning">* WEATHER *</h3>
     </div>
 </nav>
 
