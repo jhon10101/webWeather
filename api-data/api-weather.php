@@ -20,8 +20,7 @@
                     $json = curl_exec($ch);
                     
                     curl_close($ch);      
-                  //  $apiResult2 = json_decode($json, true);
-                //    $jsonstring2 = $apiResult2;
+
                     echo $json;
 
 ?>
