@@ -27,8 +27,8 @@
 
                     <div  class="container" id="weather-time">
                         <div class="row p-4">
-                            <div class="card-group">
-                                <div class="col-4 p-4 bg-Secondary">
+                            <div class="card-group justify-content-center">
+                                <div class="bg-Secondary">
                                     <div class="col-md-12 p-2 d-flex align-content-start flex-wrap">
                                         <div class="card shadow-lg bg-info border-info">
                                             <div class="card-body">
@@ -43,22 +43,14 @@
                                                     </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 p-2 d-flex align-content-start flex-wrap justify-content-center">
-                                        <div style="background-color: rgba(209, 240, 255, 0.5);" class="card shadow-lg border-info">
-                                            <div class="card-body">
-                                                
-                                                <div id="temp"></div>
-                    
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
-                                <div class="col-8 p-8">
-                                    <div class="col-md-12 p-2 d-flex align-content-start flex-wrap">
-                                        <div class="card shadow-lg border-info">
+                                <div class="">
+                                    <div class="col-md-12 col-12 p-1 d-flex align-content-start flex-wrap">
+                                        <div class="card shadow-lg border-info" style="width: 40rem; background-color: rgba(209, 240, 255, 0.5);">
                                             <div class="card-body">
-                                                    <img class="card-img shadow-lg"src="https://images3.alphacoders.com/810/81075.jpg" alt="Card image">
-                                                <!-- -->
+                                                <!--    <img class="card-img shadow-lg"src="" alt="Card image">
+                                                 -->
                                                 <div id="tasks"></div>
                                             </div>
                                         </div>

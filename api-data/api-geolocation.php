@@ -1,6 +1,7 @@
 <?php
 
                 $queryString = http_build_query([
+                  'lang' => 'sp',
                   'access_key' => 'a15f4e6273505d91968e009e59b06ccb',
                 ]);
                                   
