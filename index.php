@@ -26,7 +26,7 @@
                 
 
                     <div  class="container" id="weather-time">
-                        <div class="row p-4">
+                        <div class="row py-3">
                             <div class="card-group justify-content-center">
                                 <div class="bg-Secondary">
                                     <div class="col-md-12 p-2 d-flex align-content-start flex-wrap">
@@ -49,9 +49,13 @@
                                     <div class="col-md-12 col-12 p-1 d-flex align-content-start flex-wrap">
                                         <div class="card shadow-lg border-info" style="width: 40rem; background-color: rgba(209, 240, 255, 0.5);">
                                             <div class="card-body">
-                                                <!--    <img class="card-img shadow-lg"src="" alt="Card image">
-                                                 -->
-                                                <div id="tasks"></div>
+                                                <div id="tasks">
+                                                    <div class="text-center">
+                                                        <div class="spinner-border" role="status">
+                                                            <span class="sr-only">Loading...</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

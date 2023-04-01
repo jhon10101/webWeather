@@ -34,10 +34,10 @@ $(function() {
                 <img class="card-img-top" src="https://openweathermap.org/img/wn/${weather1.icon}.png" alt="image">
                 </div>
                 <div class="col-md-8 col-12" ml-auto">
-                    <div><h1 class="card-text text-center m-2 px-2">${tempCityInt} &deg;C </h1></div>
+                    <div><h1><div class="card-text text-center m-2 px-2 display-4">${tempCityInt} &deg;C </div></h1></div>
                     <div><h4 class="card-text text-center m-2 px-2">${tasks.name}, ${tasks.sys.country}</h4></div>
                     <div><h5 class="card-title"></h5></div>
-                    <div class="card-text m-1 px-2 bg-light"><b>${tempdescripcion} </b></div>
+                    <div class="card-text m-1 px-2 bg-light text-capitalize"><b>${weather1.description} </b></div>
                     <div class="card-text m-1 px-2">Min temp: <b>${tasks.main.temp_min} &deg;C </b></div>
                     <div class="card-text m-1 px-2">Max temp: <b>${tasks.main.temp_max} &deg;C </b></div>
                     <div class="card-text m-1 px-2">Humidity: <b>${tasks.main.humidity} % </b></div>
