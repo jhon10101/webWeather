@@ -67,7 +67,7 @@
         </div>
     </div>
 </body>
-<footer class="bg-info text-center text-white">
+<footer class="bg-info text-center text-white fixed-bottom">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Social media -->
