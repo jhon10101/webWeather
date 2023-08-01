@@ -15,9 +15,6 @@
         <h3 class="text-center text-warning">* WEATHER *</h3>
     </div>
 </nav>
-<?php
-  ///
-?>
 
     <div class="container px-3">
         
